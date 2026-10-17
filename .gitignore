@@ -1,0 +1,8 @@
+/Bin/Asset
+.vs/
+.idea/
+x64/
+*.ipch
+*.pdb
+*.APS
+*.vcxproj.user
