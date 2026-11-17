@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_Engine">
+      <UniqueIdentifier>{3c016852-3237-4d53-80bd-6b0a56f54875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Edit">
+      <UniqueIdentifier>{f110aa4f-30ba-4946-bbf4-30a8f96f799a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Edit\Enemy">
+      <UniqueIdentifier>{4fa44cec-3af2-42bc-87ef-2b64c55e48dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthStencilState.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneUIManager.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="UICBuffer.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="UserWidget.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Widget.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowWidget.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAnimation.cpp" />
+    <ClCompile Include="Animation2D.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2DSequence.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2DData.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMesh.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Asset.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderCBuffer.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantBufferData.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialCBuffer.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteCBuffer.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2DCBuffer.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantBuffer.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformCBuffer.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderAABB2D.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderBase.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderLine2D.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderOBB2D.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderSphere2D.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionQuadTree.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneCollision.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraComponent.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementComponent.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneComponent.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteComponent.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialManager.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshManager.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderStateManager.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneAssetManager.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3D.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4D.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="BlendState.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="RasterizerState.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderState.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorMeshShader.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameMeshShader.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicShader.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteShader.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMeshShader.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Grab.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerMovement.cpp" />
+    <ClCompile Include="Actor.cpp" />
+    <ClCompile Include="Ground.cpp" />
+    <ClCompile Include="BackGround.cpp" />
+    <ClCompile Include="MainScene.cpp" />
+    <ClCompile Include="Animation2DManager.cpp" />
+    <ClCompile Include="AudioComponent.cpp">
+      <Filter>_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="ProfileManager.cpp" />
+    <ClCompile Include="GrabAnimation.cpp" />
+    <ClCompile Include="SpriteEffect.cpp" />
+    <ClCompile Include="ExplodeEffect.cpp" />
+    <ClCompile Include="CameraActor.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="BulletExplodeEffect.cpp" />
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Edit\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="RifleEnemy.cpp">
+      <Filter>Edit\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ShotGunEnemy.cpp">
+      <Filter>Edit\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWidget.cpp" />
+    <ClCompile Include="HUD_HP.cpp" />
+    <ClCompile Include="BackGroundBuilding.cpp" />
+    <ClCompile Include="StartWidget.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="SceneStart.cpp" />
+    <ClCompile Include="UIShader.cpp" />
+    <ClCompile Include="VendingMachine.cpp" />
+    <ClCompile Include="EndScene.cpp" />
+    <ClCompile Include="SANNABIOST.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionChannel.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthStencilState.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneUIManager.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="UICBuffer.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="UserWidget.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Widget.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowWidget.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAnimation.h" />
+    <ClInclude Include="Animation2D.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2DSequence.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2DData.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticMesh.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Asset.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderCBuffer.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBufferData.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialCBuffer.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteCBuffer.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2DCBuffer.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffer.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformCBuffer.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderAABB2D.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderBase.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderLine2D.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderOBB2D.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderSphere2D.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionQuadTree.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneCollision.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraComponent.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementComponent.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneComponent.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteComponent.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialManager.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshManager.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderStateManager.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneAssetManager.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Axis.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4D.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="BlendState.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="RasterizerState.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderState.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorMeshShader.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameMeshShader.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicShader.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteShader.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticMeshShader.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedPtr.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Grab.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerMovement.h" />
+    <ClInclude Include="Actor.h" />
+    <ClInclude Include="Ground.h" />
+    <ClInclude Include="BackGround.h" />
+    <ClInclude Include="MainScene.h" />
+    <ClInclude Include="Animation2DManager.h" />
+    <ClInclude Include="AudioComponent.h">
+      <Filter>_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h" />
+    <ClInclude Include="ProfileManager.h" />
+    <ClInclude Include="GrabAnimation.h" />
+    <ClInclude Include="SpriteEffect.h" />
+    <ClInclude Include="ExplodeEffect.h" />
+    <ClInclude Include="CameraActor.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="BulletExplodeEffect.h" />
+    <ClInclude Include="Enemy.h">
+      <Filter>Edit\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="RifleEnemy.h">
+      <Filter>Edit\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ShotGunEnemy.h">
+      <Filter>Edit\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWidget.h" />
+    <ClInclude Include="HUD_HP.h" />
+    <ClInclude Include="BackGroundBuilding.h" />
+    <ClInclude Include="StartWidget.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="Image.h" />
+    <ClInclude Include="SceneStart.h" />
+    <ClInclude Include="UIShader.h" />
+    <ClInclude Include="VendingMachine.h" />
+    <ClInclude Include="EndScene.h" />
+    <ClInclude Include="SANNABIOST.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Sprite.fx">
+      <Filter>_Engine</Filter>
+    </FxCompile>
+    <FxCompile Include="ColorMesh.fx">
+      <Filter>_Engine</Filter>
+    </FxCompile>
+    <FxCompile Include="Mesh.fx">
+      <Filter>_Engine</Filter>
+    </FxCompile>
+    <FxCompile Include="Share.fx">
+      <Filter>_Engine</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shader\UI.fx">
+      <Filter>_Engine</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>_Engine</Filter>
+    </Image>
+    <Image Include="..\Bin\Asset\Texture\SNB_ICON.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SANNABI.rc">
+      <Filter>_Engine</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

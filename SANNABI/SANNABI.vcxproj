@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation2D.h" />
+    <ClInclude Include="Animation2DCBuffer.h" />
+    <ClInclude Include="Animation2DData.h" />
+    <ClInclude Include="Animation2DManager.h" />
+    <ClInclude Include="Animation2DSequence.h" />
+    <ClInclude Include="Asset.h" />
+    <ClInclude Include="AssetManager.h" />
+    <ClInclude Include="AudioComponent.h" />
+    <ClInclude Include="Axis.h" />
+    <ClInclude Include="BackGround.h" />
+    <ClInclude Include="BackGroundBuilding.h" />
+    <ClInclude Include="BlendState.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="BulletExplodeEffect.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="CameraActor.h" />
+    <ClInclude Include="CameraComponent.h" />
+    <ClInclude Include="CameraManager.h" />
+    <ClInclude Include="ColliderAABB2D.h" />
+    <ClInclude Include="ColliderBase.h" />
+    <ClInclude Include="ColliderCBuffer.h" />
+    <ClInclude Include="ColliderLine2D.h" />
+    <ClInclude Include="ColliderOBB2D.h" />
+    <ClInclude Include="ColliderSphere2D.h" />
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="CollisionChannel.h" />
+    <ClInclude Include="CollisionQuadTree.h" />
+    <ClInclude Include="ColorMeshShader.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="ConstantBuffer.h" />
+    <ClInclude Include="ConstantBufferData.h" />
+    <ClInclude Include="DepthStencilState.h" />
+    <ClInclude Include="Device.h" />
+    <ClInclude Include="EndScene.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="ExplodeEffect.h" />
+    <ClInclude Include="FrameMeshShader.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="GrabAnimation.h" />
+    <ClInclude Include="GraphicShader.h" />
+    <ClInclude Include="Ground.h" />
+    <ClInclude Include="Grab.h" />
+    <ClInclude Include="HUD_HP.h" />
+    <ClInclude Include="Image.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="MainWidget.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="MaterialCBuffer.h" />
+    <ClInclude Include="MaterialManager.h" />
+    <ClInclude Include="Math.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="MeshManager.h" />
+    <ClInclude Include="MovementComponent.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerAnimation.h" />
+    <ClInclude Include="PlayerMovement.h" />
+    <ClInclude Include="ProfileManager.h" />
+    <ClInclude Include="RasterizerState.h" />
+    <ClInclude Include="RenderManager.h" />
+    <ClInclude Include="RenderState.h" />
+    <ClInclude Include="RenderStateManager.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="RifleEnemy.h" />
+    <ClInclude Include="SANNABIOST.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneAssetManager.h" />
+    <ClInclude Include="SceneCollision.h" />
+    <ClInclude Include="SceneComponent.h" />
+    <ClInclude Include="MainScene.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="Actor.h" />
+    <ClInclude Include="SceneStart.h" />
+    <ClInclude Include="SceneUIManager.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="ShaderManager.h" />
+    <ClInclude Include="SharedPtr.h" />
+    <ClInclude Include="ShotGunEnemy.h" />
+    <ClInclude Include="Sound.h" />
+    <ClInclude Include="SoundManager.h" />
+    <ClInclude Include="SpriteCBuffer.h" />
+    <ClInclude Include="SpriteComponent.h" />
+    <ClInclude Include="SpriteEffect.h" />
+    <ClInclude Include="SpriteShader.h" />
+    <ClInclude Include="StartWidget.h" />
+    <ClInclude Include="StaticMesh.h" />
+    <ClInclude Include="StaticMeshShader.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="TransformCBuffer.h" />
+    <ClInclude Include="UICBuffer.h" />
+    <ClInclude Include="UIShader.h" />
+    <ClInclude Include="UserWidget.h" />
+    <ClInclude Include="Vector2D.h" />
+    <ClInclude Include="Vector3D.h" />
+    <ClInclude Include="Vector4D.h" />
+    <ClInclude Include="VendingMachine.h" />
+    <ClInclude Include="Widget.h" />
+    <ClInclude Include="WindowWidget.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation2D.cpp" />
+    <ClCompile Include="Animation2DCBuffer.cpp" />
+    <ClCompile Include="Animation2DData.cpp" />
+    <ClCompile Include="Animation2DManager.cpp" />
+    <ClCompile Include="Animation2DSequence.cpp" />
+    <ClCompile Include="Asset.cpp" />
+    <ClCompile Include="AssetManager.cpp" />
+    <ClCompile Include="AudioComponent.cpp" />
+    <ClCompile Include="BackGround.cpp" />
+    <ClCompile Include="BackGroundBuilding.cpp" />
+    <ClCompile Include="BlendState.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="BulletExplodeEffect.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="CameraActor.cpp" />
+    <ClCompile Include="CameraComponent.cpp" />
+    <ClCompile Include="CameraManager.cpp" />
+    <ClCompile Include="ColliderAABB2D.cpp" />
+    <ClCompile Include="ColliderBase.cpp" />
+    <ClCompile Include="ColliderCBuffer.cpp" />
+    <ClCompile Include="ColliderLine2D.cpp" />
+    <ClCompile Include="ColliderOBB2D.cpp" />
+    <ClCompile Include="ColliderSphere2D.cpp" />
+    <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="CollisionQuadTree.cpp" />
+    <ClCompile Include="ColorMeshShader.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="ConstantBuffer.cpp" />
+    <ClCompile Include="ConstantBufferData.cpp" />
+    <ClCompile Include="DepthStencilState.cpp" />
+    <ClCompile Include="Device.cpp" />
+    <ClCompile Include="EndScene.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="ExplodeEffect.cpp" />
+    <ClCompile Include="FrameMeshShader.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="GrabAnimation.cpp" />
+    <ClCompile Include="GraphicShader.cpp" />
+    <ClCompile Include="Ground.cpp" />
+    <ClCompile Include="Grab.cpp" />
+    <ClCompile Include="HUD_HP.cpp" />
+    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainWidget.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="MaterialCBuffer.cpp" />
+    <ClCompile Include="MaterialManager.cpp" />
+    <ClCompile Include="Math.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="MeshManager.cpp" />
+    <ClCompile Include="MovementComponent.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerAnimation.cpp" />
+    <ClCompile Include="PlayerMovement.cpp" />
+    <ClCompile Include="ProfileManager.cpp" />
+    <ClCompile Include="RasterizerState.cpp" />
+    <ClCompile Include="RenderManager.cpp" />
+    <ClCompile Include="RenderState.cpp" />
+    <ClCompile Include="RenderStateManager.cpp" />
+    <ClCompile Include="RifleEnemy.cpp" />
+    <ClCompile Include="SANNABIOST.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SceneAssetManager.cpp" />
+    <ClCompile Include="SceneCollision.cpp" />
+    <ClCompile Include="SceneComponent.cpp" />
+    <ClCompile Include="MainScene.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="Actor.cpp" />
+    <ClCompile Include="SceneStart.cpp" />
+    <ClCompile Include="SceneUIManager.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="ShaderManager.cpp" />
+    <ClCompile Include="ShotGunEnemy.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="SpriteCBuffer.cpp" />
+    <ClCompile Include="SpriteComponent.cpp" />
+    <ClCompile Include="SpriteEffect.cpp" />
+    <ClCompile Include="SpriteShader.cpp" />
+    <ClCompile Include="StartWidget.cpp" />
+    <ClCompile Include="StaticMesh.cpp" />
+    <ClCompile Include="StaticMeshShader.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="TransformCBuffer.cpp" />
+    <ClCompile Include="UICBuffer.cpp" />
+    <ClCompile Include="UIShader.cpp" />
+    <ClCompile Include="UserWidget.cpp" />
+    <ClCompile Include="Vector3D.cpp" />
+    <ClCompile Include="Vector4D.cpp" />
+    <ClCompile Include="VendingMachine.cpp" />
+    <ClCompile Include="Widget.cpp" />
+    <ClCompile Include="WindowWidget.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SANNABI.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Bin\Asset\Texture\SNB_ICON.ico" />
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\Shader\UI.fx">
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">UIVS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">UIVS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UIVS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UIVS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="ColorMesh.fx">
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ColorMeshVS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ColorMeshVS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ColorMeshVS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ColorMeshVS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Mesh.fx">
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MeshVS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MeshVS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MeshVS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MeshVS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Share.fx">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="Sprite.fx">
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">SpriteVS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">SpriteVS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">5.0</ShaderModel>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SpriteVS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SpriteVS</EntryPointName>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Effect</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+    </FxCompile>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{a458a99d-33e3-4c4b-a759-6f3f5979e882}</ProjectGuid>
+    <RootNamespace>SANNABI</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>../Bin/</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>../Bin/</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>../Bin/</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>../Bin/</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>/Zm100 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>/Zm100 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>/Zm100 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>/Zm100 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

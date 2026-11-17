@@ -1,68 +1,36 @@
-# Prerequisites
-*.d
+# ------------------------------------------------------------
+# 공개 범위: 직접 작성한 엔진·게임 코드와 셰이더만 올립니다.
+# - 원작 게임 '산나비'의 이미지·사운드·OST는 저작권 문제로 제외
+# - FMOD SDK(헤더·라이브러리·DLL)는 라이선스상 재배포하지 않음
+# ------------------------------------------------------------
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# 실행 폴더: 셰이더 원본(.fx)만 포함
+/Bin/*
+!/Bin/Shader/
+/Bin/Shader/*
+!/Bin/Shader/*.fx
+
+# FMOD SDK
+/SANNABI/fmod*
+
+# 원작 게임 아이콘
+/SANNABI/icon1.ico
+
+# 빌드 산출물과 IDE 파일
+x64/
+Debug/
+Release/
+*.APS
+*.aps
+*.vcxproj.user
+.vs/
+.idea/
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
 *.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+*.ilk
 *.exe
-*.out
-*.app
-
-# Build directories
-[Bb]uild/
-[Bb]uild-*/
-cmake-build-*/
-
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
-
-# Temporary files
-*.tmp
+*.dll
+*.lib
+*.cso
+*.tlog
 *.log
-*.bak
-*.swp
-
-# vcpkg
-vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/

@@ -1,0 +1,62 @@
+#include "Share.fx"
+
+//정점정보
+// 정점위치, UV좌표
+struct VS_Input_Tex
+{
+    float3 Pos : POSITION;
+    float2 UV : TEXCOORD;
+};
+
+struct VS_Output_Tex
+{
+    float4 Pos : SV_POSITION;
+    float2 UV : TEXCOORD;
+};
+
+cbuffer Sprite : register(b3)
+{
+    float4 gSpriteTint;
+}
+
+
+VS_Output_Tex SpriteVS(VS_Input_Tex input)
+{
+    VS_Output_Tex output = (VS_Output_Tex) 0;
+
+    float3 Pos = input.Pos - gPivot;
+
+    //반전여부
+    if (gAnim2DFlip)
+    {
+        Pos.x = -Pos.x;
+    }
+
+
+    output.Pos = mul(float4(Pos, 1.f), gmatWVP);
+
+    float2 UVS = float2(0.2f, 0.f);
+    
+    output.UV = UpdateAnimation2D(input.UV);
+
+    //반전여부
+// 0.2 0.4 -> 0.4 0.2  -> 0.8 0.6 
+  //  if (gAnim2DFlip)
+  //  {
+		//// x축 반전
+  //      output.UV.x = 1 - output.UV.x;
+  //  }
+
+    return output;
+}
+
+PS_Output_Single SpritePS(VS_Output_Tex input)
+{
+    PS_Output_Single output = (PS_Output_Single) 0;
+
+    float4 Color = gBaseTexture.Sample(gBaseSampler, input.UV);
+
+    output.Color = Color * gSpriteTint;
+
+    return output;
+}
