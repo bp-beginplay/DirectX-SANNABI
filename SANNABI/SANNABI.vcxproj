@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -19,208 +19,208 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Animation2D.h" />
-    <ClInclude Include="Animation2DCBuffer.h" />
-    <ClInclude Include="Animation2DData.h" />
-    <ClInclude Include="Animation2DManager.h" />
-    <ClInclude Include="Animation2DSequence.h" />
-    <ClInclude Include="Asset.h" />
-    <ClInclude Include="AssetManager.h" />
-    <ClInclude Include="AudioComponent.h" />
-    <ClInclude Include="Axis.h" />
-    <ClInclude Include="BackGround.h" />
-    <ClInclude Include="BackGroundBuilding.h" />
-    <ClInclude Include="BlendState.h" />
-    <ClInclude Include="Bullet.h" />
-    <ClInclude Include="BulletExplodeEffect.h" />
-    <ClInclude Include="Button.h" />
-    <ClInclude Include="CameraActor.h" />
-    <ClInclude Include="CameraComponent.h" />
-    <ClInclude Include="CameraManager.h" />
-    <ClInclude Include="ColliderAABB2D.h" />
-    <ClInclude Include="ColliderBase.h" />
-    <ClInclude Include="ColliderCBuffer.h" />
-    <ClInclude Include="ColliderLine2D.h" />
-    <ClInclude Include="ColliderOBB2D.h" />
-    <ClInclude Include="ColliderSphere2D.h" />
-    <ClInclude Include="Collision.h" />
-    <ClInclude Include="CollisionChannel.h" />
-    <ClInclude Include="CollisionQuadTree.h" />
-    <ClInclude Include="ColorMeshShader.h" />
-    <ClInclude Include="Component.h" />
-    <ClInclude Include="ConstantBuffer.h" />
-    <ClInclude Include="ConstantBufferData.h" />
-    <ClInclude Include="DepthStencilState.h" />
-    <ClInclude Include="Device.h" />
-    <ClInclude Include="EndScene.h" />
-    <ClInclude Include="Enemy.h" />
-    <ClInclude Include="Engine.h" />
-    <ClInclude Include="ExplodeEffect.h" />
-    <ClInclude Include="FrameMeshShader.h" />
-    <ClInclude Include="GameManager.h" />
-    <ClInclude Include="GrabAnimation.h" />
-    <ClInclude Include="GraphicShader.h" />
-    <ClInclude Include="Ground.h" />
-    <ClInclude Include="Grab.h" />
-    <ClInclude Include="HUD_HP.h" />
-    <ClInclude Include="Image.h" />
-    <ClInclude Include="Input.h" />
-    <ClInclude Include="Log.h" />
-    <ClInclude Include="MainWidget.h" />
-    <ClInclude Include="Material.h" />
-    <ClInclude Include="MaterialCBuffer.h" />
-    <ClInclude Include="MaterialManager.h" />
-    <ClInclude Include="Math.h" />
-    <ClInclude Include="Matrix.h" />
-    <ClInclude Include="Mesh.h" />
-    <ClInclude Include="MeshManager.h" />
-    <ClInclude Include="MovementComponent.h" />
-    <ClInclude Include="Object.h" />
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="PlayerAnimation.h" />
-    <ClInclude Include="PlayerMovement.h" />
-    <ClInclude Include="ProfileManager.h" />
-    <ClInclude Include="RasterizerState.h" />
-    <ClInclude Include="RenderManager.h" />
-    <ClInclude Include="RenderState.h" />
-    <ClInclude Include="RenderStateManager.h" />
+    <ClInclude Include="Engine\Animation\Animation2D.h" />
+    <ClInclude Include="Engine\Shader\Animation2DCBuffer.h" />
+    <ClInclude Include="Engine\Asset\Animation2DData.h" />
+    <ClInclude Include="Engine\Asset\Animation2DManager.h" />
+    <ClInclude Include="Engine\Animation\Animation2DSequence.h" />
+    <ClInclude Include="Engine\Asset\Asset.h" />
+    <ClInclude Include="Engine\Asset\AssetManager.h" />
+    <ClInclude Include="Engine\Component\AudioComponent.h" />
+    <ClInclude Include="Engine\Math\Axis.h" />
+    <ClInclude Include="Game\Object\BackGround.h" />
+    <ClInclude Include="Game\Object\BackGroundBuilding.h" />
+    <ClInclude Include="Engine\Render\BlendState.h" />
+    <ClInclude Include="Game\Enemy\Bullet.h" />
+    <ClInclude Include="Game\Enemy\BulletExplodeEffect.h" />
+    <ClInclude Include="Engine\UI\Button.h" />
+    <ClInclude Include="Engine\Actor\CameraActor.h" />
+    <ClInclude Include="Engine\Component\CameraComponent.h" />
+    <ClInclude Include="Engine\Scene\CameraManager.h" />
+    <ClInclude Include="Engine\Collision\ColliderAABB2D.h" />
+    <ClInclude Include="Engine\Collision\ColliderBase.h" />
+    <ClInclude Include="Engine\Shader\ColliderCBuffer.h" />
+    <ClInclude Include="Engine\Collision\ColliderLine2D.h" />
+    <ClInclude Include="Engine\Collision\ColliderOBB2D.h" />
+    <ClInclude Include="Engine\Collision\ColliderSphere2D.h" />
+    <ClInclude Include="Engine\Collision\Collision.h" />
+    <ClInclude Include="Engine\Collision\CollisionChannel.h" />
+    <ClInclude Include="Engine\Collision\CollisionQuadTree.h" />
+    <ClInclude Include="Engine\Shader\ColorMeshShader.h" />
+    <ClInclude Include="Engine\Component\Component.h" />
+    <ClInclude Include="Engine\Shader\ConstantBuffer.h" />
+    <ClInclude Include="Engine\Shader\ConstantBufferData.h" />
+    <ClInclude Include="Engine\Render\DepthStencilState.h" />
+    <ClInclude Include="Engine\Device\Device.h" />
+    <ClInclude Include="Game\Scene\EndScene.h" />
+    <ClInclude Include="Game\Enemy\Enemy.h" />
+    <ClInclude Include="Engine\Core\Engine.h" />
+    <ClInclude Include="Game\Enemy\ExplodeEffect.h" />
+    <ClInclude Include="Engine\Shader\FrameMeshShader.h" />
+    <ClInclude Include="Engine\Core\GameManager.h" />
+    <ClInclude Include="Game\Player\GrabAnimation.h" />
+    <ClInclude Include="Engine\Shader\GraphicShader.h" />
+    <ClInclude Include="Game\Object\Ground.h" />
+    <ClInclude Include="Game\Player\Grab.h" />
+    <ClInclude Include="Game\UI\HUD_HP.h" />
+    <ClInclude Include="Engine\UI\Image.h" />
+    <ClInclude Include="Engine\Input\Input.h" />
+    <ClInclude Include="Engine\Core\Log.h" />
+    <ClInclude Include="Game\UI\MainWidget.h" />
+    <ClInclude Include="Engine\Asset\Material.h" />
+    <ClInclude Include="Engine\Shader\MaterialCBuffer.h" />
+    <ClInclude Include="Engine\Asset\MaterialManager.h" />
+    <ClInclude Include="Engine\Math\Math.h" />
+    <ClInclude Include="Engine\Math\Matrix.h" />
+    <ClInclude Include="Engine\Asset\Mesh.h" />
+    <ClInclude Include="Engine\Asset\MeshManager.h" />
+    <ClInclude Include="Engine\Component\MovementComponent.h" />
+    <ClInclude Include="Engine\Core\Object.h" />
+    <ClInclude Include="Game\Player\Player.h" />
+    <ClInclude Include="Game\Player\PlayerAnimation.h" />
+    <ClInclude Include="Game\Player\PlayerMovement.h" />
+    <ClInclude Include="Engine\Collision\ProfileManager.h" />
+    <ClInclude Include="Engine\Render\RasterizerState.h" />
+    <ClInclude Include="Engine\Render\RenderManager.h" />
+    <ClInclude Include="Engine\Render\RenderState.h" />
+    <ClInclude Include="Engine\Render\RenderStateManager.h" />
     <ClInclude Include="resource.h" />
-    <ClInclude Include="RifleEnemy.h" />
-    <ClInclude Include="SANNABIOST.h" />
-    <ClInclude Include="Scene.h" />
-    <ClInclude Include="SceneAssetManager.h" />
-    <ClInclude Include="SceneCollision.h" />
-    <ClInclude Include="SceneComponent.h" />
-    <ClInclude Include="MainScene.h" />
-    <ClInclude Include="SceneManager.h" />
-    <ClInclude Include="Actor.h" />
-    <ClInclude Include="SceneStart.h" />
-    <ClInclude Include="SceneUIManager.h" />
-    <ClInclude Include="Shader.h" />
-    <ClInclude Include="ShaderManager.h" />
-    <ClInclude Include="SharedPtr.h" />
-    <ClInclude Include="ShotGunEnemy.h" />
-    <ClInclude Include="Sound.h" />
-    <ClInclude Include="SoundManager.h" />
-    <ClInclude Include="SpriteCBuffer.h" />
-    <ClInclude Include="SpriteComponent.h" />
-    <ClInclude Include="SpriteEffect.h" />
-    <ClInclude Include="SpriteShader.h" />
-    <ClInclude Include="StartWidget.h" />
-    <ClInclude Include="StaticMesh.h" />
-    <ClInclude Include="StaticMeshShader.h" />
-    <ClInclude Include="Texture.h" />
-    <ClInclude Include="TextureManager.h" />
-    <ClInclude Include="Timer.h" />
-    <ClInclude Include="TransformCBuffer.h" />
-    <ClInclude Include="UICBuffer.h" />
-    <ClInclude Include="UIShader.h" />
-    <ClInclude Include="UserWidget.h" />
-    <ClInclude Include="Vector2D.h" />
-    <ClInclude Include="Vector3D.h" />
-    <ClInclude Include="Vector4D.h" />
-    <ClInclude Include="VendingMachine.h" />
-    <ClInclude Include="Widget.h" />
-    <ClInclude Include="WindowWidget.h" />
+    <ClInclude Include="Game\Enemy\RifleEnemy.h" />
+    <ClInclude Include="Game\Object\SANNABIOST.h" />
+    <ClInclude Include="Engine\Scene\Scene.h" />
+    <ClInclude Include="Engine\Asset\SceneAssetManager.h" />
+    <ClInclude Include="Engine\Collision\SceneCollision.h" />
+    <ClInclude Include="Engine\Component\SceneComponent.h" />
+    <ClInclude Include="Game\Scene\MainScene.h" />
+    <ClInclude Include="Engine\Scene\SceneManager.h" />
+    <ClInclude Include="Engine\Actor\Actor.h" />
+    <ClInclude Include="Game\Scene\SceneStart.h" />
+    <ClInclude Include="Engine\Scene\SceneUIManager.h" />
+    <ClInclude Include="Engine\Shader\Shader.h" />
+    <ClInclude Include="Engine\Shader\ShaderManager.h" />
+    <ClInclude Include="Engine\Core\SharedPtr.h" />
+    <ClInclude Include="Game\Enemy\ShotGunEnemy.h" />
+    <ClInclude Include="Engine\Asset\Sound.h" />
+    <ClInclude Include="Engine\Asset\SoundManager.h" />
+    <ClInclude Include="Engine\Shader\SpriteCBuffer.h" />
+    <ClInclude Include="Engine\Component\SpriteComponent.h" />
+    <ClInclude Include="Game\Object\SpriteEffect.h" />
+    <ClInclude Include="Engine\Shader\SpriteShader.h" />
+    <ClInclude Include="Game\UI\StartWidget.h" />
+    <ClInclude Include="Engine\Asset\StaticMesh.h" />
+    <ClInclude Include="Engine\Shader\StaticMeshShader.h" />
+    <ClInclude Include="Engine\Asset\Texture.h" />
+    <ClInclude Include="Engine\Asset\TextureManager.h" />
+    <ClInclude Include="Engine\Core\Timer.h" />
+    <ClInclude Include="Engine\Shader\TransformCBuffer.h" />
+    <ClInclude Include="Engine\Shader\UICBuffer.h" />
+    <ClInclude Include="Engine\Shader\UIShader.h" />
+    <ClInclude Include="Engine\UI\UserWidget.h" />
+    <ClInclude Include="Engine\Math\Vector2D.h" />
+    <ClInclude Include="Engine\Math\Vector3D.h" />
+    <ClInclude Include="Engine\Math\Vector4D.h" />
+    <ClInclude Include="Game\Object\VendingMachine.h" />
+    <ClInclude Include="Engine\UI\Widget.h" />
+    <ClInclude Include="Engine\UI\WindowWidget.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Animation2D.cpp" />
-    <ClCompile Include="Animation2DCBuffer.cpp" />
-    <ClCompile Include="Animation2DData.cpp" />
-    <ClCompile Include="Animation2DManager.cpp" />
-    <ClCompile Include="Animation2DSequence.cpp" />
-    <ClCompile Include="Asset.cpp" />
-    <ClCompile Include="AssetManager.cpp" />
-    <ClCompile Include="AudioComponent.cpp" />
-    <ClCompile Include="BackGround.cpp" />
-    <ClCompile Include="BackGroundBuilding.cpp" />
-    <ClCompile Include="BlendState.cpp" />
-    <ClCompile Include="Bullet.cpp" />
-    <ClCompile Include="BulletExplodeEffect.cpp" />
-    <ClCompile Include="Button.cpp" />
-    <ClCompile Include="CameraActor.cpp" />
-    <ClCompile Include="CameraComponent.cpp" />
-    <ClCompile Include="CameraManager.cpp" />
-    <ClCompile Include="ColliderAABB2D.cpp" />
-    <ClCompile Include="ColliderBase.cpp" />
-    <ClCompile Include="ColliderCBuffer.cpp" />
-    <ClCompile Include="ColliderLine2D.cpp" />
-    <ClCompile Include="ColliderOBB2D.cpp" />
-    <ClCompile Include="ColliderSphere2D.cpp" />
-    <ClCompile Include="Collision.cpp" />
-    <ClCompile Include="CollisionQuadTree.cpp" />
-    <ClCompile Include="ColorMeshShader.cpp" />
-    <ClCompile Include="Component.cpp" />
-    <ClCompile Include="ConstantBuffer.cpp" />
-    <ClCompile Include="ConstantBufferData.cpp" />
-    <ClCompile Include="DepthStencilState.cpp" />
-    <ClCompile Include="Device.cpp" />
-    <ClCompile Include="EndScene.cpp" />
-    <ClCompile Include="Enemy.cpp" />
-    <ClCompile Include="ExplodeEffect.cpp" />
-    <ClCompile Include="FrameMeshShader.cpp" />
-    <ClCompile Include="GameManager.cpp" />
-    <ClCompile Include="GrabAnimation.cpp" />
-    <ClCompile Include="GraphicShader.cpp" />
-    <ClCompile Include="Ground.cpp" />
-    <ClCompile Include="Grab.cpp" />
-    <ClCompile Include="HUD_HP.cpp" />
-    <ClCompile Include="Image.cpp" />
-    <ClCompile Include="Input.cpp" />
-    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="Engine\Animation\Animation2D.cpp" />
+    <ClCompile Include="Engine\Shader\Animation2DCBuffer.cpp" />
+    <ClCompile Include="Engine\Asset\Animation2DData.cpp" />
+    <ClCompile Include="Engine\Asset\Animation2DManager.cpp" />
+    <ClCompile Include="Engine\Animation\Animation2DSequence.cpp" />
+    <ClCompile Include="Engine\Asset\Asset.cpp" />
+    <ClCompile Include="Engine\Asset\AssetManager.cpp" />
+    <ClCompile Include="Engine\Component\AudioComponent.cpp" />
+    <ClCompile Include="Game\Object\BackGround.cpp" />
+    <ClCompile Include="Game\Object\BackGroundBuilding.cpp" />
+    <ClCompile Include="Engine\Render\BlendState.cpp" />
+    <ClCompile Include="Game\Enemy\Bullet.cpp" />
+    <ClCompile Include="Game\Enemy\BulletExplodeEffect.cpp" />
+    <ClCompile Include="Engine\UI\Button.cpp" />
+    <ClCompile Include="Engine\Actor\CameraActor.cpp" />
+    <ClCompile Include="Engine\Component\CameraComponent.cpp" />
+    <ClCompile Include="Engine\Scene\CameraManager.cpp" />
+    <ClCompile Include="Engine\Collision\ColliderAABB2D.cpp" />
+    <ClCompile Include="Engine\Collision\ColliderBase.cpp" />
+    <ClCompile Include="Engine\Shader\ColliderCBuffer.cpp" />
+    <ClCompile Include="Engine\Collision\ColliderLine2D.cpp" />
+    <ClCompile Include="Engine\Collision\ColliderOBB2D.cpp" />
+    <ClCompile Include="Engine\Collision\ColliderSphere2D.cpp" />
+    <ClCompile Include="Engine\Collision\Collision.cpp" />
+    <ClCompile Include="Engine\Collision\CollisionQuadTree.cpp" />
+    <ClCompile Include="Engine\Shader\ColorMeshShader.cpp" />
+    <ClCompile Include="Engine\Component\Component.cpp" />
+    <ClCompile Include="Engine\Shader\ConstantBuffer.cpp" />
+    <ClCompile Include="Engine\Shader\ConstantBufferData.cpp" />
+    <ClCompile Include="Engine\Render\DepthStencilState.cpp" />
+    <ClCompile Include="Engine\Device\Device.cpp" />
+    <ClCompile Include="Game\Scene\EndScene.cpp" />
+    <ClCompile Include="Game\Enemy\Enemy.cpp" />
+    <ClCompile Include="Game\Enemy\ExplodeEffect.cpp" />
+    <ClCompile Include="Engine\Shader\FrameMeshShader.cpp" />
+    <ClCompile Include="Engine\Core\GameManager.cpp" />
+    <ClCompile Include="Game\Player\GrabAnimation.cpp" />
+    <ClCompile Include="Engine\Shader\GraphicShader.cpp" />
+    <ClCompile Include="Game\Object\Ground.cpp" />
+    <ClCompile Include="Game\Player\Grab.cpp" />
+    <ClCompile Include="Game\UI\HUD_HP.cpp" />
+    <ClCompile Include="Engine\UI\Image.cpp" />
+    <ClCompile Include="Engine\Input\Input.cpp" />
+    <ClCompile Include="Engine\Core\Log.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="MainWidget.cpp" />
-    <ClCompile Include="Material.cpp" />
-    <ClCompile Include="MaterialCBuffer.cpp" />
-    <ClCompile Include="MaterialManager.cpp" />
-    <ClCompile Include="Math.cpp" />
-    <ClCompile Include="Mesh.cpp" />
-    <ClCompile Include="MeshManager.cpp" />
-    <ClCompile Include="MovementComponent.cpp" />
-    <ClCompile Include="Object.cpp" />
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="PlayerAnimation.cpp" />
-    <ClCompile Include="PlayerMovement.cpp" />
-    <ClCompile Include="ProfileManager.cpp" />
-    <ClCompile Include="RasterizerState.cpp" />
-    <ClCompile Include="RenderManager.cpp" />
-    <ClCompile Include="RenderState.cpp" />
-    <ClCompile Include="RenderStateManager.cpp" />
-    <ClCompile Include="RifleEnemy.cpp" />
-    <ClCompile Include="SANNABIOST.cpp" />
-    <ClCompile Include="Scene.cpp" />
-    <ClCompile Include="SceneAssetManager.cpp" />
-    <ClCompile Include="SceneCollision.cpp" />
-    <ClCompile Include="SceneComponent.cpp" />
-    <ClCompile Include="MainScene.cpp" />
-    <ClCompile Include="SceneManager.cpp" />
-    <ClCompile Include="Actor.cpp" />
-    <ClCompile Include="SceneStart.cpp" />
-    <ClCompile Include="SceneUIManager.cpp" />
-    <ClCompile Include="Shader.cpp" />
-    <ClCompile Include="ShaderManager.cpp" />
-    <ClCompile Include="ShotGunEnemy.cpp" />
-    <ClCompile Include="Sound.cpp" />
-    <ClCompile Include="SoundManager.cpp" />
-    <ClCompile Include="SpriteCBuffer.cpp" />
-    <ClCompile Include="SpriteComponent.cpp" />
-    <ClCompile Include="SpriteEffect.cpp" />
-    <ClCompile Include="SpriteShader.cpp" />
-    <ClCompile Include="StartWidget.cpp" />
-    <ClCompile Include="StaticMesh.cpp" />
-    <ClCompile Include="StaticMeshShader.cpp" />
-    <ClCompile Include="Texture.cpp" />
-    <ClCompile Include="TextureManager.cpp" />
-    <ClCompile Include="Timer.cpp" />
-    <ClCompile Include="TransformCBuffer.cpp" />
-    <ClCompile Include="UICBuffer.cpp" />
-    <ClCompile Include="UIShader.cpp" />
-    <ClCompile Include="UserWidget.cpp" />
-    <ClCompile Include="Vector3D.cpp" />
-    <ClCompile Include="Vector4D.cpp" />
-    <ClCompile Include="VendingMachine.cpp" />
-    <ClCompile Include="Widget.cpp" />
-    <ClCompile Include="WindowWidget.cpp" />
+    <ClCompile Include="Game\UI\MainWidget.cpp" />
+    <ClCompile Include="Engine\Asset\Material.cpp" />
+    <ClCompile Include="Engine\Shader\MaterialCBuffer.cpp" />
+    <ClCompile Include="Engine\Asset\MaterialManager.cpp" />
+    <ClCompile Include="Engine\Math\Math.cpp" />
+    <ClCompile Include="Engine\Asset\Mesh.cpp" />
+    <ClCompile Include="Engine\Asset\MeshManager.cpp" />
+    <ClCompile Include="Engine\Component\MovementComponent.cpp" />
+    <ClCompile Include="Engine\Core\Object.cpp" />
+    <ClCompile Include="Game\Player\Player.cpp" />
+    <ClCompile Include="Game\Player\PlayerAnimation.cpp" />
+    <ClCompile Include="Game\Player\PlayerMovement.cpp" />
+    <ClCompile Include="Engine\Collision\ProfileManager.cpp" />
+    <ClCompile Include="Engine\Render\RasterizerState.cpp" />
+    <ClCompile Include="Engine\Render\RenderManager.cpp" />
+    <ClCompile Include="Engine\Render\RenderState.cpp" />
+    <ClCompile Include="Engine\Render\RenderStateManager.cpp" />
+    <ClCompile Include="Game\Enemy\RifleEnemy.cpp" />
+    <ClCompile Include="Game\Object\SANNABIOST.cpp" />
+    <ClCompile Include="Engine\Scene\Scene.cpp" />
+    <ClCompile Include="Engine\Asset\SceneAssetManager.cpp" />
+    <ClCompile Include="Engine\Collision\SceneCollision.cpp" />
+    <ClCompile Include="Engine\Component\SceneComponent.cpp" />
+    <ClCompile Include="Game\Scene\MainScene.cpp" />
+    <ClCompile Include="Engine\Scene\SceneManager.cpp" />
+    <ClCompile Include="Engine\Actor\Actor.cpp" />
+    <ClCompile Include="Game\Scene\SceneStart.cpp" />
+    <ClCompile Include="Engine\Scene\SceneUIManager.cpp" />
+    <ClCompile Include="Engine\Shader\Shader.cpp" />
+    <ClCompile Include="Engine\Shader\ShaderManager.cpp" />
+    <ClCompile Include="Game\Enemy\ShotGunEnemy.cpp" />
+    <ClCompile Include="Engine\Asset\Sound.cpp" />
+    <ClCompile Include="Engine\Asset\SoundManager.cpp" />
+    <ClCompile Include="Engine\Shader\SpriteCBuffer.cpp" />
+    <ClCompile Include="Engine\Component\SpriteComponent.cpp" />
+    <ClCompile Include="Game\Object\SpriteEffect.cpp" />
+    <ClCompile Include="Engine\Shader\SpriteShader.cpp" />
+    <ClCompile Include="Game\UI\StartWidget.cpp" />
+    <ClCompile Include="Engine\Asset\StaticMesh.cpp" />
+    <ClCompile Include="Engine\Shader\StaticMeshShader.cpp" />
+    <ClCompile Include="Engine\Asset\Texture.cpp" />
+    <ClCompile Include="Engine\Asset\TextureManager.cpp" />
+    <ClCompile Include="Engine\Core\Timer.cpp" />
+    <ClCompile Include="Engine\Shader\TransformCBuffer.cpp" />
+    <ClCompile Include="Engine\Shader\UICBuffer.cpp" />
+    <ClCompile Include="Engine\Shader\UIShader.cpp" />
+    <ClCompile Include="Engine\UI\UserWidget.cpp" />
+    <ClCompile Include="Engine\Math\Vector3D.cpp" />
+    <ClCompile Include="Engine\Math\Vector4D.cpp" />
+    <ClCompile Include="Game\Object\VendingMachine.cpp" />
+    <ClCompile Include="Engine\UI\Widget.cpp" />
+    <ClCompile Include="Engine\UI\WindowWidget.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="SANNABI.rc" />
@@ -244,7 +244,7 @@
       <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Effect</ShaderType>
       <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
     </FxCompile>
-    <FxCompile Include="ColorMesh.fx">
+    <FxCompile Include="Shaders\ColorMesh.fx">
       <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ColorMeshVS</EntryPointName>
       <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
       <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
@@ -258,7 +258,7 @@
       <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Effect</ShaderType>
       <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
     </FxCompile>
-    <FxCompile Include="Mesh.fx">
+    <FxCompile Include="Shaders\Mesh.fx">
       <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MeshVS</EntryPointName>
       <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
       <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
@@ -272,7 +272,7 @@
       <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Effect</ShaderType>
       <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
     </FxCompile>
-    <FxCompile Include="Share.fx">
+    <FxCompile Include="Shaders\Share.fx">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -286,7 +286,7 @@
       <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Effect</ShaderType>
       <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
     </FxCompile>
-    <FxCompile Include="Sprite.fx">
+    <FxCompile Include="Shaders\Sprite.fx">
       <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">SpriteVS</EntryPointName>
       <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Effect</ShaderType>
       <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">5.0</ShaderModel>
@@ -367,6 +367,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -380,6 +381,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <WarningLevel>Level3</WarningLevel>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
@@ -395,6 +397,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -408,6 +411,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <WarningLevel>Level3</WarningLevel>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>

@@ -11,7 +11,7 @@
 !/Bin/Shader/*.fx
 
 # FMOD SDK
-/SANNABI/fmod*
+/SANNABI/ThirdParty/FMOD/
 
 # 원작 게임 아이콘
 /SANNABI/icon1.ico
