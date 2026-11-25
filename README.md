@@ -22,14 +22,28 @@
 | 애니메이션 | `CAnimation2D`, `CAnimation2DSequence` | 프레임별 UV 치환, 프레임 노티파이 |
 | 디버그 | `CLog` | 콘솔·출력 창 실시간 로그, 텍스트 파일 저장 |
 
+## 폴더 구조
+
+```
+SANNABI/
+├─ Engine/        엔진 (Core, Math, Device, Render, Shader, Asset, Animation,
+│                 Component, Collision, Scene, Input, UI, Actor)
+├─ Game/          게임 (Scene, Player, Enemy, Object, UI)
+├─ Shaders/       HLSL 셰이더 (.fx)
+├─ ThirdParty/    DirectXTex, FMOD
+└─ main.cpp
+```
+
+#include는 프로젝트 루트 기준 경로를 씁니다 (예: `#include "Game/Player/Player.h"`).
+
 ## 게임플레이
 
 | 기능 | 주요 파일 |
 |---|---|
-| 이동 상태 머신 (지면·낙하·벽·스윙·돌진·피격·사망) | `Player.cpp`, `PlayerMovement.cpp` |
-| 사슬팔 조준: 마우스 방향 ±30° 안의 가장 가까운 대상 선택 | `Player.cpp` |
-| 사슬 발사·회수 | `Grab.cpp` |
-| 적 (소총형, 산탄형) | `RifleEnemy.cpp`, `ShotGunEnemy.cpp` |
+| 이동 상태 머신 (지면·낙하·벽·스윙·돌진·피격·사망) | `Game/Player/Player.cpp`, `Game/Player/PlayerMovement.cpp` |
+| 사슬팔 조준: 마우스 방향 ±30° 안의 가장 가까운 대상 선택 | `Game/Player/Player.cpp` |
+| 사슬 발사·회수 | `Game/Player/Grab.cpp` |
+| 적 (소총형, 산탄형) | `Game/Enemy/RifleEnemy.cpp`, `Game/Enemy/ShotGunEnemy.cpp` |
 
 ### 사슬 스윙
 
@@ -42,7 +56,7 @@
 ## 저장소에 포함되지 않은 것
 
 - **게임 에셋**: 스프라이트, 배경, 사운드, OST는 원작 게임 '산나비'의 저작물이라 제외했습니다.
-- **FMOD SDK**: 라이선스상 재배포하지 않았습니다. 빌드하려면 FMOD Engine을 설치하고 헤더와 라이브러리를 프로젝트에 추가해야 합니다.
-- **DirectXTex 라이브러리**: 헤더만 포함했고, `.lib`는 [DirectXTex](https://github.com/microsoft/DirectXTex)를 빌드해 `Bin` 폴더에 두어야 합니다.
+- **FMOD SDK**: 라이선스상 재배포하지 않았습니다. 빌드하려면 FMOD Engine을 설치하고 헤더와 라이브러리를 `SANNABI/ThirdParty/FMOD/`에 두어야 합니다.
+- **DirectXTex 라이브러리**: 헤더만 `SANNABI/ThirdParty/DirectXTex/`에 포함했고, `.lib`는 [DirectXTex](https://github.com/microsoft/DirectXTex)를 빌드해 `Bin` 폴더에 두어야 합니다.
 
 에셋이 없으므로 이 저장소만으로는 게임을 실행할 수 없습니다. 플레이 모습은 위 영상에서 볼 수 있습니다.
